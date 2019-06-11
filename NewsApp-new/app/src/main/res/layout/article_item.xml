@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/thumbnail"
+            android:layout_marginRight="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text=" Section name"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textSize="12sp"
+            android:id="@+id/section"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            tools:text="This is a news article made to test this application by writing a long sentence and see what happens "
+            android:ellipsize="end"
+            android:maxLines="2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Author name"
+            android:id="@+id/author"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="14sp"
+            android:layout_margin="5dp"
+            android:ellipsize="end"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text=" Date"
+            android:id="@+id/date"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="14sp"
+            android:ellipsize="end"/>
+        </LinearLayout>
+
+
+
+</LinearLayout>
